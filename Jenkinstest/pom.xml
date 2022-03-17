@@ -34,7 +34,11 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
+	<configuration>
+      <source>1.8.0_322</source>
+      <target>1.8.0_322</target>
+   </configuration>
+</plugin>
 		</plugins>
 	</build>
 
