@@ -14,7 +14,7 @@
 	<name>Jenkinstest</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>1.8.0_322</java.version>
+		<java.version>1.8.0</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -35,8 +35,8 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 	<configuration>
-      <source>1.8.0_322</source>
-      <target>1.8.0_322</target>
+      <source>1.8.0</source>
+      <target>1.8.0</target>
    </configuration>
 </plugin>
 		</plugins>
